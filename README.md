@@ -10,7 +10,7 @@ För att kunna använda Milligram och Bootstrap måste specifika länkar kopiera
 Dessa länkar kan du hitta på respektive webbplatser för Milligram och Bootstrap. Där finns också cheatsheets för de HTML-klasser man använder sig av.
 
 ### Länkar:
-https://milligram.io
+https://milligram.io  
 https://getbootstrap.com/ 
 
 
