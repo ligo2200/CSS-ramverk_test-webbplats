@@ -38,18 +38,25 @@
             <div>
                 <h3>Utvärdering av Milligram</h3>
                 <p>
-                    Om man snabbt vill skapa en webbplats är Milligram ett CSS-ramverk som snabbt och enkelt ger en god grundCSS på ett lättanvänligt sätt.
-                     
-                    En stor fördel med Milligrams CSS-ramverk är att det går snabbt att styla en webbsida.
-                    Däremot är det svårt att få till de lite "finare" detaljerna som går att få med till exempel Bootstrap.
+                    Om man snabbt vill skapa en stylad webbplats är Milligram ett CSS-ramverk som enkelt ger en god grundCSS att stå på, på ett lättanvänligt sätt.
+                    Man behöver inte använda sig av klasser på alla element utan Milligram känner igen de element som används och ger CSS-kod utifrån det. 
+                    Det finns specifika klasser att lägga in för exempelvis knappar, men det är få valmöjligheter med endast ett par-tre stycken, 
+                    vilket gör det lätt att bestämma sig för hur man vill att det ska se ut.
+                    Här nedan finns exempel på en tabell samt ett formulär där jag endast använt mig av Milligram för att styla, inget annat. 
+                    Som kan ses är Milligramstilen väldigt basic, 
+                    men det räcker gott för dem som snabbt vill kunna styla en webbplats effektivt utan att behöva lägga till alltför många klasser till elementen. 
+                    Under tiden som jag har läst om och prövat Milligram upplever jag att det är väldigt enkelt för nybörjare av ramverk att använda, 
+                    samt spar in en hel del tid när man slipper att lägga in klasser för varje element. gentemot exempelvis Bootstrap där man lägger in klasser för varje element. 
+                    Vill man däremot ha mer avancerad CSS är inte Milligram rätt verktyg utan då bör man välja något annat CSS-ramverk som till exempel Tailwind eller Bootstrap.
                 </p>
+                <a href="https://milligram.io/">Milligrams webbplats</a>
             </div>
             <div>
                 <form>
                     <fieldset>
                         <label for="name">Namn:</label>
                         <input type="text" placeholder="Skriv ditt namn här.." id="name">
-                        <div>
+                        <div class="ages">
                             <p>Hur gammal är du?</p>
                             <label class="label-inline" for="age1">0 - 20 år</label>
                             <input type="checkbox" id="age1" name="age1" value="0 - 20 år">
@@ -77,7 +84,7 @@
                         </select>
 
                         <label for="message">Meddelande:</label>
-                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <textarea placeholder="Skriv ditt meddelande här.." name="message" id="message" cols="30" rows="10"></textarea>
 
                         <input class="button-primary" type="submit" value="Lägg till">
                         
