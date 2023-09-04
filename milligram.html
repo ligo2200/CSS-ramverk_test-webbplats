@@ -45,9 +45,10 @@
                     Här nedan finns exempel på en tabell samt ett formulär där jag endast använt mig av Milligram för att styla, inget annat. 
                     Som kan ses är Milligramstilen väldigt basic, 
                     men det räcker gott för dem som snabbt vill kunna styla en webbplats effektivt utan att behöva lägga till alltför många klasser till elementen. 
+                    Små saker behöver läggas till som exempelvis padding/margin mellan vissa delar i formuläret och så vidare men generellt sett är det väldigt simpla saker att lägga till för att få det att se snyggt ut. 
                     Under tiden som jag har läst om och prövat Milligram upplever jag att det är väldigt enkelt för nybörjare av ramverk att använda, 
                     samt spar in en hel del tid när man slipper att lägga in klasser för varje element. gentemot exempelvis Bootstrap där man lägger in klasser för varje element. 
-                    Vill man däremot ha mer avancerad CSS är inte Milligram rätt verktyg utan då bör man välja något annat CSS-ramverk som till exempel Tailwind eller Bootstrap.
+                    Vill man däremot ha mer avancerad CSS är inte Milligram rätt verktyg utan då bör man välja något annat CSS-ramverk som till exempel Tailwind eller Bootstrap. 
                 </p>
                 <a href="https://milligram.io/">Milligrams webbplats</a>
             </div>
@@ -56,8 +57,9 @@
                     <fieldset>
                         <label for="name">Namn:</label>
                         <input type="text" placeholder="Skriv ditt namn här.." id="name">
+
                         <div class="ages">
-                            <p>Hur gammal är du?</p>
+                            <p>Ålder?</p>
                             <label class="label-inline" for="age1">0 - 20 år</label>
                             <input type="checkbox" id="age1" name="age1" value="0 - 20 år">
                             <label class="label-inline" for="age2">21 - 40 år</label>
@@ -95,10 +97,44 @@
             <div>
                 <table>
                     <thead>
-
+                        <tr>
+                            <th>Namn</th>
+                            <th>Ålder</th>
+                            <th>Favoritfärg</th>
+                            <th>Meddelande</th>
+                        </tr>
                     </thead>
                     <tbody>
-                        
+                        <tr>
+                            <td>Linda</td>
+                            <td>21 - 40 år</td>
+                            <td>Jag har många olika favoritfärger.</td> 
+                            <td>Hogwarts Legacy ftw</td>
+                        </tr>
+                        <tr>
+                            <td>Rikard</td>
+                            <td>21 - 40 år</td>
+                            <td>Röd</td>
+                            <td>Jag gillar att meka</td>
+                        </tr>
+                        <tr>
+                            <td>Molly</td>
+                            <td>0 - 20 år</td>
+                            <td>Svart</td>
+                            <td>ijwtbc är bäst!</td>
+                        </tr>
+                        <tr>
+                            <td>Harry</td>
+                            <td>0 - 20 år</td>
+                            <td>Gul</td>
+                            <td>Jag vill äta kräftor varje dag!</td>
+                        </tr>
+                        <tr>
+                            <td>Karoline</td>
+                            <td>41 - 60 år</td>
+                            <td>Svart</td>
+                            <td>Hej hej</td>
+                        </tr>
                     </tbody>
                 </table>
             </div>
