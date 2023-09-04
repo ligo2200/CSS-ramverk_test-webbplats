@@ -13,3 +13,9 @@ header h2 {
 body {
     background-color: lightgray;
 }
+a {
+    color: black;
+}
+a:hover {
+    color: rgb(1, 137, 155);
+}
