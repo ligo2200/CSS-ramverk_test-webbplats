@@ -1,0 +1,15 @@
+
+header {
+    margin: 2% 0 2% 0;
+}
+header h2 {
+    margin-bottom: 2%;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    background-color: lightgray;
+}
