@@ -19,20 +19,35 @@ a {
 a:hover {
     color: rgb(1, 137, 155);
 }
+.millibody {
+    background-color: none !important;
+}
 .milli {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    border: 3px solid magenta;
-}
-.milli h1, .milli h2 {
     text-align: center;
 }
 .topnav {
     background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+.topnav ul {
+    align-self: flex-start;
+    margin-top: 2%;
+}
+.topnav li {
+    display: inline;
+    padding: 15px;
 }
 .topnav a {
     color: lightgray;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+}
+.topnav a:hover {
+    color: rgb(1, 137, 155);
+}
+.milco {
+    margin-bottom: 3%;
 }
