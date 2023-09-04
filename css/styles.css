@@ -20,7 +20,7 @@ a:hover {
     color: rgb(1, 137, 155);
 }
 .millibody {
-    background-color: none !important;
+    background-color: white;
 }
 .milli {
     display: flex;
