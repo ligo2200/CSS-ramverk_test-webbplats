@@ -20,77 +20,79 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
 </head>
 <body>
-    <header>
-        <h1>DT193G - Fullstack med ramverk</h1>
-        <h2>Moment 1 - CSS-ramverk</h2>
-        <nav>
-            <ul>
-                <li><a href="index.html">Startsida</a></li>
-                <li><a href="milligram.html">Milligram</a></li>
-                <li><a href="bootstrap.html">Bootstrap</a></li>
-                <li><a href="platform.html">Publicering - Render</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        
-        <div>
-            <h3>Utvärdering av Milligram</h3>
-            <p>En stor fördel med Milligrams CSS-ramverk är att det går snabbt att styla en webbsida.
-                Däremot är det svårt att få till de lite "finare" detaljerna som går att få med till exempel Bootstrap.
-            </p>
-        </div>
-        <div>
-            <form>
-                <fieldset>
-                    <label for="name">Namn:</label>
-                    <input type="text" placeholder="Skriv ditt namn här.." id="name">
+    <div class="container">
+        <header>
+            <h1>DT193G - Fullstack med ramverk</h1>
+            <h2>Moment 1 - CSS-ramverk</h2>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Startsida</a></li>
+                    <li><a href="milligram.html">Milligram</a></li>
+                    <li><a href="bootstrap.html">Bootstrap</a></li>
+                    <li><a href="platform.html">Publicering - Render</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            
+            <div>
+                <h3>Utvärdering av Milligram</h3>
+                <p>En stor fördel med Milligrams CSS-ramverk är att det går snabbt att styla en webbsida.
+                    Däremot är det svårt att få till de lite "finare" detaljerna som går att få med till exempel Bootstrap.
+                </p>
+            </div>
+            <div>
+                <form>
+                    <fieldset>
+                        <label for="name">Namn:</label>
+                        <input type="text" placeholder="Skriv ditt namn här.." id="name">
 
-                    <p>Hur gammal är du?</p>
-                    <label for="age1">0 - 20 år</label>
-                    <input type="checkbox" id="age1" name="age1" value="0 - 20 år">
-                    <label for="age2">21 - 40 år</label>
-                    <input type="checkbox" id="age2" name="age2" value="21 - 40 år">
-                    <label for="age3">41 - 60 år</label>
-                    <input type="checkbox" id="age3" name="age3" value="41 - 60 år">
-                    <label for="age4">61 - 80 år</label>
-                    <input type="checkbox" id="age4" name="age4" value="61 - 80 år">
-                    <label for="age5">81 - 100 år</label>
-                    <input type="checkbox" id="age5" name="age5" value="81 - 100 år">
+                        <p>Hur gammal är du?</p>
+                        <label for="age1">0 - 20 år</label>
+                        <input type="checkbox" id="age1" name="age1" value="0 - 20 år">
+                        <label for="age2">21 - 40 år</label>
+                        <input type="checkbox" id="age2" name="age2" value="21 - 40 år">
+                        <label for="age3">41 - 60 år</label>
+                        <input type="checkbox" id="age3" name="age3" value="41 - 60 år">
+                        <label for="age4">61 - 80 år</label>
+                        <input type="checkbox" id="age4" name="age4" value="61 - 80 år">
+                        <label for="age5">81 - 100 år</label>
+                        <input type="checkbox" id="age5" name="age5" value="81 - 100 år">
 
-                    <label for="favcolor">Favoritfärg:</label>
-                    <select name="favcolor" id="favcolor">
-                        <option value="Svart">Svart</option>
-                        <option value="Vit">Vit</option>
-                        <option value="Blå">Blå</option>
-                        <option value="Rosa">Rosa</option>
-                        <option value="Grön">Grön</option>
-                        <option value="Röd">Röd</option>
-                        <option value="Gul">Gul</option>
-                        <option value="Min favoritfärg finns inte med.">Min favoritfärg finns inte med.</option>
-                        <option value="Jag har flera favoritfärger."></option>
-                    </select>
+                        <label for="favcolor">Favoritfärg:</label>
+                        <select name="favcolor" id="favcolor">
+                            <option value="Svart">Svart</option>
+                            <option value="Vit">Vit</option>
+                            <option value="Blå">Blå</option>
+                            <option value="Rosa">Rosa</option>
+                            <option value="Grön">Grön</option>
+                            <option value="Röd">Röd</option>
+                            <option value="Gul">Gul</option>
+                            <option value="Min favoritfärg finns inte med.">Min favoritfärg finns inte med.</option>
+                            <option value="Jag har flera favoritfärger."></option>
+                        </select>
 
-                    <label for="message">Meddelande:</label>
-                    <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                        <label for="message">Meddelande:</label>
+                        <textarea name="message" id="message" cols="30" rows="10"></textarea>
 
-                    <input class="button-primary" type="submit" value="Lägg till">
-                    
+                        <input class="button-primary" type="submit" value="Lägg till">
+                        
 
-                </fieldset>
-            </form>
-        </div>
-        <div>
-            <table>
-                <thead>
+                    </fieldset>
+                </form>
+            </div>
+            <div>
+                <table>
+                    <thead>
 
-                </thead>
-                <tbody>
-                    
-                </tbody>
-            </table>
-        </div>
+                    </thead>
+                    <tbody>
+                        
+                    </tbody>
+                </table>
+            </div>
 
-    </main>
+        </main>
+    </div>
 </body>
 </html>
