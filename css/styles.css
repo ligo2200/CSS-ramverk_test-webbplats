@@ -56,3 +56,11 @@ a:hover {
 .tabell {
     margin-bottom: 4%;
 }
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer a {
+    color: white;
+}
