@@ -17,9 +17,7 @@ a {
 a:hover {
     color: rgb(1, 137, 155);
 }
-.millibody {
-    background-color: white;
-}
+
 .milli {
     display: flex;
     flex-direction: column;
@@ -40,7 +38,7 @@ a:hover {
 }
 .topnav a {
     color: lightgray;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 1.3px;
 }
 .topnav a:hover {
@@ -51,4 +49,10 @@ a:hover {
 }
 .desc h4 {
     margin-top: 2%;
+}
+.boot {
+    margin-bottom: 4%;
+}
+.tabell {
+    margin-bottom: 4%;
 }
